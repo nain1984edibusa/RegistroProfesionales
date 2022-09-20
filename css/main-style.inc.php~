@@ -1,0 +1,61 @@
+<style type="text/css" title="workspace" media="screen">
+body          {font-family: sans-serif; font-size: 11px; letter-spacing:normal; background-image:url(image/back-logo-inpc.png);background-attachment: fixed}
+pre,tt        {font-size: 11px}
+#watermark {display:none}
+th            {font-family: sans-serif; font-size: 11px; font-weight: bold; background-color:  #616974; color: #ffffff; vertical-align:middle;  border-radius: 5px; -moz-border-radius: 5px;}
+table         {border-color: #ffffff; border-style:groove; padding: 4;  border-radius: 6px; -moz-border-radius: 6px;}
+td            {font-family: sans-serif; font-size: 11px; border-radius: 6px; -moz-border-radius: 6px;}
+tr.menu_	{height: 146px;}
+form          {font-family: arial; font-size: 11px} 
+input           {font-family: arial;  font-weight: bold;}
+input.textfield {font-family: arial;  font-weight: bold; color: #000000; background-color: #FFFFFF}
+select          {font-family:Arial;font-weight:bold;text-decoration:none}
+textarea        {font-family: arial; font-weight: bold; color: #000000; background-color: #FFFFFF}
+button	{background-color:#000000;color:#818DD3;font-family:arial;border-style:Dashed;border-width:3}
+submit	{background-color:#000000;color:#818DD3;font-family:arial;border-style:Dashed;border-width:3}
+h1            {font-family: sans-serif; font-size: 12pt; font-weight: bold}
+h2            {font-family: sans-serif; font-size: 14pt; font-weight: bold}
+h3            {font-family: sans-serif; font-size: 16pt; font-weight: bold}
+A {font-size: 11px;}
+A:link        {text-decoration: none; font-weight:none; color: #2411B5}
+A:visited     {text-decoration: none; font-weight:none; color: #2411B5}
+A:hover       {text-decoration: underline;font-weight:bold; color:#e7130d;}
+A:link.nav    {text-decoration: none;  font-weight:none;color: #2411B5}
+A:visited.nav {text-decoration: none; font-weight:none; color: #2411B5}
+A:hover.nav   {text-decoration: underline; font-weight:bold; color:#ff0000;filter:alpha(opacity=60);-moz-opacity: 0.6;opacity: 0.6;}
+borderit img{border: 2px solid #0000FF;}
+input.alerta {background-color:#eda5b4; font-size:13 px;}
+input.loading {background-color:#2e3ed5; font-size:13 px;}
+img.lar:hover  {height:90%;border: 2px solid #FF0000 }
+.textoinclinado {font-weight:bold;  position:relative; left:50px; bottom:30px; -webkit-transform:  rotate(335deg);-moz-transform:  rotate(335deg);-o-transform:  rotate(335deg);writing-mode: rl-tb;}
+.cajita {
+    background-color: orange;
+    box-shadow: 10px 10px 3px #888888;
+}
+.literatura {
+    background-color: white;
+    box-shadow: 10px 10px 7px #888888;
+}
+.literatura2 {
+	 border-radius: 5px; -moz-border-radius: 5px;
+    background-color: #FFFF99;
+    align: justify;
+    box-shadow: 10px 10px 7px #888888;
+}
+.menubar {
+    background-color: lightblue;
+    box-shadow: 10px 10px 3px #888888;
+}
+.seccion {
+    background-color: lightgreen;
+    box-shadow: 10px 10px 3px #888888;
+}
+.tobut {
+
+    background-color: #66ccff;
+    box-shadow: 10px 10px 3px #aaaaaa;
+}
+
+
+</style>
+

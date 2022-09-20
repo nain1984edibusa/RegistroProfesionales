@@ -1,0 +1,526 @@
+<!--
+        var browser = navigator.appName.substring(0,9);
+	var DOM = (document.getElementById) ? 1 : 0;
+        var NS4 = (document.layers) ? 1 : 0;
+        var IE4 = (document.all) ? 1 : 0;
+        var ver4 = (NS4 || IE4) ? 1 : 0;
+//window.onerror = myOnError
+
+if (DOM) {	gotlayers = 1;};	
+if (NS4) {		gotlayers = (document.layers.length == 3) ? 1 : 0;};
+if (IE4) {		gotlayers = 1;};
+gotlayers = 1;
+
+msgArray = new Array()
+urlArray = new Array()
+lnoArray = new Array()
+
+function ChFS(size) 
+{
+	var a=document.getElementsByTagName("*");
+	var c=document.getElementsByTagName("HTMLBodyElement");
+	var b=c.length;
+	for (var i=0; i <= (1-1); i++){
+		alert(c.item(0)+' '+i+' '+b);
+	};
+//document.getElementById(id).style.fontSize = size + "px";
+}
+
+function myOnError(msg, url, lno) 
+{
+   msgArray[msgArray.length] = msg
+   urlArray[urlArray.length] = url
+   lnoArray[lnoArray.length] = lno
+   return true
+}
+
+function set_bgcolor(ele,color) 
+{
+	if (DOM)
+	{
+		if (browser=='Microsoft')
+		{
+			ele.style.background=color;
+		}else
+		{			
+			ele.style.background=color;
+		};
+	}
+	else if (IE4) 
+	{
+		ele.style.background=color;
+	}
+}
+
+
+
+function displayErrors() 
+{
+	if(urlArray.length > 0)
+	{
+   win2=window.open('','window2','scrollbars=yes')
+   win2.document.writeln('<B>Reporte de Error </B><P>')
+
+   for (var i=0; i < msgArray.length; i++) {
+      win2.document.writeln('<B>Error en archivo:</B> ' + urlArray[i] + '<BR>')
+      win2.document.writeln('<B>Linea:</B> ' + lnoArray[i] + '<BR>')
+      win2.document.writeln('<B>Mensaje:</B> ' + msgArray[i] + '<P>')
+   }
+   win2.document.close()
+   }
+}
+
+
+/*
+Find In Page Script-
+By Mike Hall (MHall75819@aol.com)
+Permission granted to Dynamicdrive.com to feature script in archive
+For full source code, visit http://dynamicdrive.com
+*/
+function findInPage(etiq,a_buscar)
+{
+	var win=window  ;    // window to search.
+	var n   = 0;	
+	var str=win.prompt(etiq,a_buscar)
+	 var txt, i, found;
+	 var new_etiq='';
+
+	 if (str == null)
+	   return false;
+
+	 // Find next occurance of the given string on the page, wrap around to the
+	 // start of the page if necessary.
+
+	 if (NS4)
+	 {
+		// Look for match starting at the current point. If not found, rewind
+		// back to the first match.
+
+		if (!win.find(str))
+			while(win.find(str, false, true))
+				n++;
+		else
+			n++;
+
+		   // If not found in either direction, give message.
+
+		if (n == 0)
+			new_etiq="No se ecuentra el texto.<<"+str+">>";
+		else
+			new_etiq="Coincidencia encontrada .<<"+str+">>";
+ 	}
+
+	if (IE4) 
+	{
+		txt = win.document.body.createTextRange();
+
+		// Find the nth match from the top of the page.
+
+		for (i = 0; i <= n && (found = txt.findText(str)) != false; i++) 
+		{
+			txt.moveStart("character", 1);
+			txt.moveEnd("textedit");
+		}
+
+		// If found, mark it and scroll it into view.
+
+		if (found) 
+		{
+			txt.moveStart("character", -1);
+			txt.findText(str);
+			txt.select();
+			txt.scrollIntoView();
+			n++;
+		}
+
+		// Otherwise, start over at the top of the page and find first match.
+
+		else 
+		{
+			if (n > 0) 
+			{
+				n = 0;
+				new_etiq="Coincidencia encontrada .<<"+str+">>";
+			}
+
+			// Not found anywhere, give message.
+
+			else
+				new_etiq="No se ecuentra el texto.<<"+str+">>";
+		}
+	}
+	new_etiq+='\nTEXTO A BUSCAR: '
+	findInPage(new_etiq,str);
+	return false;
+}
+/*
+Find In Page Script-
+By Mike Hall (MHall75819@aol.com)
+Permission granted to Dynamicdrive.com to feature script in archive
+For full source code, visit http://dynamicdrive.com
+*/
+
+	if (NS4){
+                //var ancho=screen.availWidth;
+                //var alto = screen.availHeight;
+		var ancho=window.outerWidth;
+		var alto=window.outerHeight;
+	}else if (DOM){
+		var ancho=screen.availWidth;
+		var alto = screen.availHeight;
+	}else if (IE4)
+	{
+		var ancho=screen.availWidth;
+		var alto = screen.availHeight;
+	};
+
+function dis_status()
+{
+	var fec=HOY;
+	var anio=fec.getFullYear();
+	var ms= fec.getMonth()+1;
+	ms =String(ms)
+	if (ms.length==1)
+	{
+		ms='0'+ms
+	};
+	var di= fec.getDate();
+	di =String(di)
+	if (di.length==1)
+	{
+		di='0'+di
+	};
+	window.status='ESPOCH Riobamba, '+dia_y_mes(anio+'/'+ms+'/'+di);
+};
+
+
+function check_resolution(ancho,alto)
+{
+	if (parseInt(ancho)<780 && parseInt(alto)<650)
+	{
+	//	location='input_error.php?screen=1';
+		return true
+	}else
+	{
+		return true
+	}
+};
+
+
+function check_browser()
+{
+        var browser = navigator.appName.substring(0,9);
+	var DOM = (document.getElementById) ? 1 : 0;
+        var NS4 = (document.layers) ? 1 : 0;
+        var IE4 = (document.all) ? 1 : 0;
+        var ver4 = (NS4 || IE4) ? 1 : 0;
+	var can_enter=true
+        if (DOM)
+	{
+		if (browser=='Microsoft')
+		{
+			can_enter=true
+			fullscreen=true
+		}else
+		{
+			if (navigator.userAgent.indexOf('Galeon')!=-1)
+			{
+				//can_enter=false;
+			}else if (navigator.userAgent.indexOf('Mozilla')!=-1)
+			{
+				//self.menubar.visible=false;
+				self.statusbar.visible=false;
+				self.toolbar.visible=false;
+				self.locationbar.visible=false;
+				self.personalbar.visible=false;
+				can_enter=true
+			};
+		};
+	}
+	else if (NS4)
+	{
+		can_enter=true
+		self.statusbar.visible=false;
+		self.menubar.visible=false;
+		self.toolbar.visible=false;
+		self.locationbar.visible=false;
+		self.personalbar.visible=false;
+        }else if (IE4)
+	{
+		can_enter=true
+		fullscreen=yes
+        }else
+	{
+		can_enter=true
+	}
+	
+	if (!can_enter)
+	{
+		location='input_error.php?navega=1';
+		return true
+	}else
+	{
+		return true
+	}
+};
+
+function carga_finder()
+{/*
+	change('sear',1,'buscar');
+	popUp('buscar',true);
+*/};
+
+function descarga_loader()
+{
+/*	change('sear',0,'loader');
+	popUp('loader',false);*/
+};
+
+function mypush(vec,ele)
+{
+    var lon = vec.length;
+    vec[lon]=ele
+}
+
+function mypop(vec)
+{
+    var lon = vec.length;
+    var newvec= new Array();
+    for (var i=0; i < (lon-1); i ++)
+    {
+	newvec[i]=vec[i];
+    }
+    return newvec
+}
+
+
+function crea_hijo(padre,nom_hijo)
+{
+	    if (browser=='Opera')
+	    {
+	  	var l_ac =mypush(padre,nom_hijo);
+	     }
+	     else
+	     {
+		var l_ac =mypush(padre,nom_hijo);	
+	     };
+};
+
+function mata_hijos(padre)
+{	
+	var i
+  	while (padre.length > 0)
+	{
+	    i=padre.length-1;
+	    if (!padre[i].closed)
+	    {
+		 mata_hijos(padre[i]);
+	    }
+	    padre[i].close();
+	    if (browser=='Opera' || browser=='Netscape')
+	    {
+		padre=mypop(padre);
+	     }
+	     else
+	     {
+	    	padre=mypop(padre);
+	     };
+	};
+};
+
+
+ function abrir(page,vent,anch,alt,tipo)
+ {
+   if (DOM)
+	{
+		if (browser=='Microsoft')
+		{
+			if(tipo)
+			{
+				window.open(page,vent,'width='+anch+',height='+(alt-45)+',alwaysRaised=1,hotkeys=0,screenX=0,screenY=0,scrollbars');
+			}else
+			{
+				hijo=window.open(page,vent,'width='+anch+',height='+alt+',resize=1,dependent=yes,hotkeys=0,titlebar=no,alwaysRaised=1,scrollbars,screenX=0,screenY=0');
+				
+			};
+		}else
+		{
+			if (navigator.userAgent.indexOf('Galeon')!=-1)
+			{
+				if (tipo)
+				{
+					window.open(page,vent,'width='+anch+',height='+alt+',alwaysRaised=1,hotkeys=0,screenX=0,screenY=0,scrollbars');
+				}else
+				{
+					hijo=window.open(page,vent,'width='+anch+',height='+alt+',resize=1,dependent=yes,hotkeys=0,titlebar=no,alwaysRaised=1,scrollbars,screenX=0,screenY=0');
+				};
+				//location='input_error.php?navega=1';
+			}else 
+			{
+				if (tipo)
+				{
+       		  	window.open(page,vent,'width='+anch+',height='+(alt-45)+',resize=1,alwaysRaised=yes, titlebar=no,hotkeys=0,screenX=0,screenY=0,scrollbars');
+				}else
+				{
+					hijo=window.open(page,vent,'width='+anch+',height='+alt+',resize=1,dependent=yes,hotkeys=0,titlebar=no,alwaysRaised=yes,scrollbars,screenX=0,screenY=0');
+				};
+			};
+		};
+	}
+	else if (NS4)
+	{
+		if (tipo)
+		{
+                	window.open(page,vent,'width='+anch+',height='+alt+',resize=no,alwaysRaised=yes, titlebar=no,hotkeys=0,screenX=0,screenY=0,scrollbars');
+		}else
+		{
+			hijo=window.open(page,vent,'width='+anch+',height='+alt+',resize=no,dependent=yes,hotkeys=0,titlebar=no,alwaysRaised=yes,scrollbars,screenX=0,screenY=0');
+		};
+   }else if (IE4)
+	{
+		if (tipo)
+		{
+           	window.open(page,vent,'width='+anch+',height='+alt+',alwaysRaised=1,hotkeys=0,screenX=0,screenY=0,scrollbars');
+		}else
+		{
+			hijo=window.open(page,vent,'width='+anch+',height='+alt+',resize=1,dependent=1,hotkeys=0,titlebar=no,alwaysRaised=1,scrollbars,screenX=0,screenY=0');
+
+		};
+                
+   }else
+	{
+		location='input_error.php?navega=1';
+	}
+	if (!tipo)
+	{
+		return hijo
+	};
+};
+
+	function abrir_doc(page,vent)
+	{
+	        if (NS4)
+		{
+			var ancho=window.outerWidth;
+			var alto=window.outerHeight;
+	        }else if (DOM)
+		{
+			var ancho=screen.availWidth;
+			var alto = screen.availHeight;
+		};
+        
+		if (DOM)
+		{
+			window.open(page,vent,'width='+ancho+',height='+alto+',resize=yes,dependent=yes,hotkeys=0,titlebar=no,alwaysRaised=yes,scrollbars,screenX=0,screenY=0,menubar');
+		}
+		else if (NS4)
+		{			
+			window.open(page,vent,'width='+ancho+',height='+alto+',resize=no,dependent=yes,hotkeys=0,titlebar=no,alwaysRaised=yes,scrollbars,menubar');
+        	}else if (IE4)
+		{
+			window.open(page,vent,'width='+ancho+',height='+alto+',resize=no,hotkeys=0,dependent=yes,titlebar=no,alwaysRaised=yes,scrollbars,menubar');
+        	}
+	};
+ function swap(im1,im2,nimag)
+{
+	var ini=document.images[nimag].src.lastIndexOf('/')+1;
+	var fin=document.images[nimag].src.length-document.images[nimag].src.indexOf('image/');
+	var iimg=document.images[nimag].src.substr(ini,fin);
+	if (iimg==im1)
+	{
+	        document.images[nimag].src='image/'+im2
+	}else
+	{
+	        document.images[nimag].src='image/'+im1
+	};
+}
+
+function shake(n)
+{
+	if (self.moveBy) {
+		for (i = 35; i > 0; i--) {
+			for (j = n; j > 0; j--) {
+				self.moveBy(0,i);
+        			self.moveBy(i,0);
+        			self.moveBy(0,-i);
+        			self.moveBy(-i,0);
+        	       }
+		}
+	}
+
+}
+//function overTD(td,color){td.bgColor=color;td.align='center'}
+//function outTD(td,color){td.bgColor=color;td.align='left'}
+function overTD(td,color){td.bgColor=color;}
+function outTD(td,color){td.bgColor=color;}  
+function overTD1(_td,color){_td.bgColor=color;}
+function outTD1(_td,color){_td.bgColor=color;} 
+function zoom(img_name,wi,hei,zf,in_out,zzf)
+{
+	var zoomfactor=zzf;
+	if (!document.all&&!document.getElementById)return
+	whatcache=eval("document.images."+img_name);
+	prefix=(in_out=="in")? 1 : -1;
+	if (prefix=='rest')
+	{
+		whatcache.style.width=wi
+		whatcache.style.height=hei
+		return
+	};
+	for(cc=0; cc <= zf; cc++)
+	{
+		whatcache.style.width=parseInt(whatcache.style.width)+parseInt(whatcache.style.width)*zoomfactor*prefix
+		whatcache.style.height=parseInt(whatcache.style.height)+parseInt(whatcache.style.height)*zoomfactor*prefix
+	};
+}; 
+
+function Clock() {
+  if (!document.getElementById) return;
+  theclock=document.getElementById("clock");
+  now = HOY;
+  hours=now.getHours();
+  mins=now.getMinutes();
+  secs=now.getSeconds();
+  if (secs < 10) secs= "0" + secs;
+  if (mins < 10) mins= "0" + mins;
+  if (secs=='00'){ff="<font color=\'#ffffff\'>";fff="</font>";}else{ff='';fff='';};
+  if (mins=='00'){ff_="<font color=\'#ffffff\'>";fff_="</font>";}else{ff_='';fff_='';};
+  if (hours=='8' || hours=='12' || hours=='14' || hours=='18'){ff__="<font color=\'#ffffff\'>";fff__="</font>";}else{ff__='';fff__='';};
+  theclock.innerHTML = ff__+hours +fff__+ ":" +ff_+mins+fff_+ ":" +ff+secs+fff;
+  HOY.setSeconds(now.getSeconds() +1)
+  window.setTimeout("Clock();",980);  
+}
+
+function Clocks(clk,h_,m_,s_) {
+  if (!document.getElementById) return;
+  theclock=document.getElementById(clk);
+  
+ hours=parseInt(h_,10);
+  mins=parseInt(m_,10);
+  secs=parseInt(s_,10);
+  if (secs >= 59) {secs=0; mins++; secs=0;};secs++; ssecs=String(secs);
+  if (mins >= 59) {mins=0; hours++; };smins=String(mins);
+ shours=String(hours);
+var hora=shours + ":" +smins+ ":" +ssecs;
+  theclock.innerHTML =' <font color="black"><b>'+hora+' </b></font> ';
+ window.setTimeout("Clocks('"+clk+"','"+shours+"','"+smins+"','"+ssecs+"');",1000);  
+}
+
+	 	function resiz(ifr){
+	 		window.parent.document.getElementById(ifr).height=document.body.offsetHeight+20;
+	 	};
+
+
+/*with(document.body.style)
+{
+    scrollbarDarkShadowColor = "0000FF";
+    scrollbar3dLightColor = "87CEFA";
+    scrollbarArrowColor = "0084ff";
+    scrollbarBaseColor = "0000FF";
+    scrollbarFaceColor = "000020";
+    scrollbarHighlightColor = "0000FF";
+    scrollbarShadowColor = "0000FF";
+    scrollbarTrackColor = "00008b";
+}*/
+//-->
+<!--img.lar:hover  {height:22px; }-->

@@ -1,0 +1,288 @@
+<?
+	$db_host = "localhost";  // Change as required
+	$db_user = "rpc-inpc-adm-app";  // Change as required
+	$db_pass = "20c0ns3rv4c10n14";  // Change as required
+	$db_name = "RpcInpcDB";	// Change as required
+
+	//$dbcon = @mysql_connect($db_host,$db_user,$db_pass);  // mysql_connect() with variables defined at the start of Database class 
+	try {
+		$db=new PDO('mysql:host='.$db_host.';dbname='.$db_name.';',$db_user,$db_pass);
+	} catch (PDOException $e) {
+		echo 'Falló la conexión: ' . $e->getMessage();
+	}
+
+//----------------------------------------------------------------------------------------------------------------------------------
+	function load_of_db($field,$content)             //PARA CREAR COMBOS A PARTIR DE UNA TABLA
+	{
+		global 
+			$db_name,$wlayer;
+		$size="1";
+		$aler=1;
+		$db_f_='';		
+        	switch($field){
+                	case 'TipoProfesionalId':
+                    $tabla='TipoProfesional';
+                    $db_f='TipoProfesionalNombre';
+                    $sort=$db_f;
+#                    if ($FILTRO=='all'){
+#                        $where='';
+#                    }else{
+#                        $where="";
+#                    };
+                    $adic='TipoProfesionalId';
+                break;
+                case 'idTipoDocID':
+                    $tabla='TipoDocID';
+                    $db_f='TipoDocIDNombre';
+                    $sort=$db_f;
+                    $adic='idTipoDocID';
+                    $size='1';
+                break;
+                case 'idNacionalidad':
+                    $tabla='Nacionalidad';
+                    $db_f='NacionalidadNombre';
+                    $sort=$db_f;
+                    $adic='idNacionalidad';
+                    $size='1';
+                break;
+                case 'idPaisr':
+                    $tabla='Paisr';
+                    $db_f='PaisrNombre';
+                    $sort=$db_f;
+                    $adic='idPaisr';
+                    $size='1';
+                break;
+                case 'idCiudadr':
+                    $tabla='Ciudadr';
+                    $db_f=" concat (CiudadrNombre,' (',Paisr_idPaisr,') ') as CiudadrNombre_";
+                    $db_f_='CiudadrNombre_';
+                    $sort= 'Paisr_idPaisr,CiudadrNombre';
+                    $adic='idCiudadr';
+                    $size='1';
+                break;
+                case "cargo":
+                case "actividad_real":
+                    $tabla="puesto";
+                    $db_f="n_puesto";
+                    if ($FILTRO=='all' ){
+                        $where='WHERE eliminado=0';
+                    }else{
+                        $where="WHERE cod_reglamento=(SELECT cod_reglamento FROM Reglamento WHERE cod_Ley='$FILTRO' and ReglamActivo=1) and eliminado=0";
+                    };
+                    /*if ($FILTRO=='3' ){         CAMBIO REGIMEN LABORAL
+                        $where="WHERE jerarq='20' and jerarq<>'80'";
+                    }elseif ($FILTRO=='1'){
+                        $where="WHERE jerarq='70' and jerarq<>'80'";
+                    }elseif($FILTRO=='emp'){
+                        $where="WHERE jerarq<>'70' and jerarq<>'20'";
+                    };*/
+                    $adic="cod_p";
+                    $size="1";
+                break;
+                case "dependencia":
+                        	$tabla="dependencia";
+                        	$db_f="nombre";
+                        	$adic="id_dep";
+                break;
+                case "donde_firma":
+                        	$tabla="dependencia";
+                        	$db_f="nombre";
+                        	$adic="id_dep";
+                break;
+                case "n_digni":
+                        	$tabla="dignidades";
+                        	$db_f="nom_dig";
+                        	$adic="cod_dig";
+                break;
+                case "bachiller":
+                        	$tabla="TIT_ESP";
+                        	$db_f="nombreTE";
+                        	$adic="cod";
+                            $where="WHERE tit_esp='t' and niv_est='s'";
+                break;
+                case "titulos":
+                        	$tabla="TIT_ESP";
+                        	$db_f="nombreTE";
+                        	$adic="cod";
+                        $where="WHERE tit_esp='e' and niv_est like '%s%'";
+                break;
+                case "grado4":
+                        	$tabla="TIT_ESP";
+                        	$db_f="nombreTE";
+                        	$adic="cod";
+                        $where="WHERE tit_esp='t' and niv_est='4'";
+                break;
+/*			case "titu4":
+                        	$tabla="TIT_ESP";
+                        	$db_f="nombreTE";
+                        	$adic="cod";
+				$where="WHERE tit_esp='e' and niv_est like '%4%'";
+                	break;*/
+                case "grado5":
+                        	$tabla="TIT_ESP";
+                        	$db_f="nombreTE";
+                        	$adic="cod";
+                        $where="WHERE tit_esp='t' and niv_est='5'";
+                break;
+/*			case "espe5":
+                        	$tabla="TIT_ESP";
+                        	$db_f="nombreTE";
+                        	$adic="cod";
+				$where="WHERE tit_esp='e' and niv_est like '%5%'";
+                	break;*/
+                case "titulou":
+                        	$tabla="TIT_ESP";
+                        	$db_f="nombreTE";
+                        	$adic="cod";
+                        $where="WHERE tit_esp='t' and niv_est='u'";
+                break;
+                case "espeu":
+                        	$tabla="TIT_ESP";
+                        	$db_f="nombreTE";
+                        	$adic="cod";
+                        $where="WHERE tit_esp='e' and niv_est like '%u%'";
+                break;
+                case "nivel":
+                        	$tabla="nivel_prof";
+                        	$db_f="nivel_prof";
+                        	$adic="nivel_prof";
+                break;
+                case "nivel_v":
+                        	$tabla="nivel_prof";
+                        	$db_f="nivel_prof";
+                        	$adic="nivel_prof";
+                break;
+                case "jerar":
+                        	$tabla="jerarquia";
+                        	$db_f="nom_jer";
+                        	$adic="cod_jer";
+                break;
+                case "nom_cat":
+                        	$tabla="categoria";
+                        	$db_f="nom_cat";
+                        	$adic="cod_cat";
+                break;
+                case "area":
+                        	$tabla="asistencia";
+                        	$db_f="area";
+                        	$adic="area";
+                        	$where="where id_dep='$dependencia'";
+                break;
+                case "unit_rota":
+                        	$tabla="parametro";
+                        	$db_f="nomb_p";
+                            $adic="symbol";
+                        	$where="where symbol like '%ROTIME%'";
+                break;
+                case "cod_Ley":
+                case "filtro":
+                case "reg_laboral":
+                        	$tabla="Ley";
+                        	$db_f="NombreLey";
+                        $adic="cod_Ley";
+                        	$where="";
+                break;
+                case "Etnia":
+                        	$tabla="Etnia";
+                        	$db_f="NombreEtnia";
+                        $adic="IDEtnia";
+                        	$where="";
+                	break;
+                case "IdDiscapacidad":
+                case "IdDiscapacidadF":
+                        	$tabla="Discapacidad";
+                        	$db_f="NombreDiscapacidad";
+                        $adic="IdDiscapacidad";
+                        	$where="";
+                	break;
+                  case "IDNacionalidad":
+                        	$tabla="NacionIndigena";
+                        	$db_f="NombreNacionalidad";
+                        $adic="IDNacionalidad";
+                        	$where="";
+                	break;
+                  case "tipo_obra":
+                        	$tabla="param_escalafon";
+                        	$db_f="nom_param";
+                        	$adic="nom_param";
+                        if (isset($ci)){
+                            $sql_gr="SELECT gremio FROM trabajador WHERE ci='$ci'";
+                            $res_gr=mysql_query($sql_gr) or check_repair_data('trabajador');
+                            if (mysql_result($res_gr,0,gremio)=='pro')
+                            {
+                                $gr='P';
+                            }else
+                            {
+                                $gr='E';
+                            };
+                                $where="WHERE nom_cat = '6' and tipo_serv like '%$gr%'";
+                            }else{
+                                $where="WHERE nom_cat = '6'";
+                        };
+                break;
+                default:
+                    $adic="";
+                    $where="";
+                break;
+        	};
+            (!isset($where))?$where='':TRUE;
+            ($db_f_=='')?$db_f_=$db_f:TRUE;
+            $i=0;
+?>
+		<SELECT NAME="<?=$field?>" size="<?=$size?>"  <?=put_bgcolor()?>>
+<?
+        	$sql="SELECT $db_f,$adic FROM $tabla $where ORDER BY $sort"; 
+        	 $res=mysql_query($sql) or die(mysql_error());
+        	if (mysql_num_fields($res)>0){
+	        	while ($row = mysql_fetch_array ($res)){
+		       		if ($content==""){
+						if ($i==0){
+							$sel="selected";
+							switch ($field){
+								case 'Etnia':
+								case 'IdDiscapacidad':
+								case "IdDiscapacidadF":
+								$sel="";
+?>
+								<OPTION selected value=""></OPTION>
+<?
+								break;
+							};
+							$i++;
+						};
+?>
+						<OPTION <?=$sel?> value="<?=$row[$adic]?>"><?=ucwords($row[$db_f_])?></OPTION>
+<?
+						$sel="";
+						$aler--;
+//					};
+                   }else{
+							$sel="";
+							if ($content==$row[$adic]){$sel="selected";};
+?>
+                        <OPTION <?=$sel?> value="<?=$row[$adic]?>"><?=ucwords($row[$db_f])?></OPTION>
+<?
+					$aler--;
+                    };
+                };
+        	}else{
+	        	$con=0;
+	        	while ($con<=mysql_num_rows($res)){
+  	        	     $sel="";
+   	        	     if ($content==mysql_result($res,$con,$adic)){$sel="selected";};
+?>
+    	        	    <OPTION <?=$sel?> value="<?=mysql_result($res,$con,$adic)?>"><?=ucwords(mysql_result($res,$con,$db_f))?></OPTION>
+<?
+    	        	    $con++;
+                    $aler--;
+                };
+            };
+?>
+        	</SELECT>
+<?
+	};
+//----------------------------------------------------------------------------------------------------------------------------------
+
+?>
+
+

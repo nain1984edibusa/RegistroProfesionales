@@ -1,0 +1,151 @@
+idProfesiones,TipoProfesional_TipoProfesionalId,Profesional_idProfesional,idProfesional,ProfesionalNombres,ProfesionalApellidos,ProfesionalFecNacim,ProfesionalGenero,ProfesionalTlfmovil,ProfesionalTlfFijo,ProfesionalDireccion,ProfesionalMail,ProfesionalMail2,Ciudadr_idCiudadr,Ciudadr_Paisr_idPaisr,Nacionalidad_idNacionalidad,TipoDocID_idTipoDocID,ProfesionalActualizo,ProfesionalLastActu,ProfesionalRestSinT,ProfesionalEspec
+22,1,0100845916,0100845916,Jaime Patricio,Idrovo Uriguen,1951-10-10,M,993731399,724094083,no especifica,jidrovou@yahoo.com,,11631,EC,EC,1,0,0000-00-00 00:00:00,0,A
+100,1,0100922483,0100922483,Rolando Vicente,Morocho Redrovan,0000-00-00,M,991114924,72845603,no especifica,rolandovm2011@hotmail.com,especificar,11631,EC,EC,1,0,0000-00-00 00:00:00,0,A
+62,1,0100998988,0100998988,Napoleón,Almeida  Duran,1951-02-19,M,980731555,72833787,no especifica,nalmeida@inpc.gob.ec,napalm1920@hotmail.com,11631,EC,EC,1,0,0000-00-00 00:00:00,0,A
+23,1,0101221356,0101221356,Mary Beatriz,Jadán Veriñaz,1956-08-29,F,994358470,042 388647,Domicilio Principal Costanera B # 214 e Ilanes,maryjadan@gmail.com,especificar,9536,EC,EC,1,0,0000-00-00 00:00:00,0,A
+368,2,0101492205,0101492205,María ,Donoso Cordero,0000-00-00,F,074097160,093871305,Paucarbamba # 5 - 30,madonoso@yahoo.es,especificar,11631,EC,EC,2,0,0000-00-00 00:00:00,0,R
+16,1,0102016961,0102016961,Angelo Renato,Constantine Castro,1969-05-08,M,0988990046,0988990046,Pto. Azul ,renattoconstantine@hotmail.com,,9536,EC,EC,1,1,2015-03-16 12:52:27,0,A
+50,1,0102055084,0102055084,Miguel Wladimir,Galarza Ordoñez,0000-00-00,M,992682993,072881660 o 07281952,Bartolomé de las Casas y Luis de Leon,wladimirgalarza@yahoo.es,especificar,11631,EC,EC,1,0,0000-00-00 00:00:00,0,A
+498,2,0102064086,0102064086,MARTHA SUSANA,GABELA CALLE,1969-12-01,,0984160758,2887526,GORIBAR Y AV. 10 DE AGOSTO,martygabela@yahoo.com,mgabela@inpc.gob.ec,11631,EC,EC,1,1,2015-01-10 11:10:42,0,R
+454,2,0102224151,0102224151,Mario Wilfrido,Montero Torres,0000-00-00,M,especificar,especificar,no especifica,especificar,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+383,2,0102309614,0102309614,Rosa Eulalia,Gómezcoello Piedra,0000-00-00,F,2885189,084350149,José Escudero 341 y Agustín Cueva,rositacoego@hotmail.com,especificar,11631,EC,EC,2,0,0000-00-00 00:00:00,0,R
+481,2,0102348455,0102348455,Jonathan Salomón,Koupermann Kuperman,1982-12-18,,0990274971,,Calle S/N y Cosanga, Challuabamba,jkoupermann@yahoo.com,,11631,EC,EC,1,1,2014-12-03 19:17:13,0,R
+361,2,0102420478,0102420478,Diego Giovanny,Castro Ochoa,0000-00-00,M,072807206,087845181,Julio Abad chica ,diegocastro@hotmail.com,especificar,11631,EC,EC,2,0,0000-00-00 00:00:00,0,R
+342,2,0102596244,0102596244,Jorge Wilmer,Alvarez Sarmiento,0000-00-00,M,2460587,084910645,Calle la Verbena y Emilio López,Jorgew_alvarez@hotmail.com,especificar,11631,EC,EC,2,0,0000-00-00 00:00:00,0,R
+429,2,0102638053,0102638053,José Patricio,Quinde Maza,0000-00-00,M,4088300,086822981,Cdla. Carlos Crespi S/N via  a Miraflores    Cuenca,patricio.quinde@yahoo.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+428,2,0103133914,0103133914,Ximena Fabiola,Pulla Guerrero,0000-00-00,F,072863725,098098462,Humberto Fierro # 166,mi_mena25@yahoo.com,especificar,11631,EC,EC,2,0,0000-00-00 00:00:00,0,R
+394,2,0103210902,0103210902,Felipe Esteban,López Merchán,0000-00-00,M,2459217,especificar,Ub. Martin Fierro,felopm24@hotmail.com,especificar,11631,EC,EC,2,0,0000-00-00 00:00:00,0,R
+378,2,0103438172,0103438172,María Elisa,Flores Proaño,0000-00-00,F,02075009,092813862,Luis Pérez S12 - 66, Urb. San José del Valle,melyluna_mota_rasta@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+357,2,0103654083,0103654083,Claudia Paola,Bustos Vicuna,0000-00-00,F,2459217,especificar,Ub. Martin Fierro,claudisbv@hotmail.com,especificar,11631,EC,EC,2,0,0000-00-00 00:00:00,0,R
+414,2,0103873345,0103873345,Johanna Nataly,Ochoa Piña,0000-00-00,F,2820121,especificar,21-55 y Luis Pauta,naty_ochoa8@hotmail.com,especificar,11631,EC,EC,2,0,0000-00-00 00:00:00,0,R
+340,2,0103879219,0103879219,MARIA VERONICA,ALVARADO MALDONADO,1977-11-11,F,0998481815,072815814,Autopista Km 6 Urb. La Arboleda,veronica1177@hotmail.com,veromontro.va@gmail.com,11631,EC,EC,2,1,2015-04-30 18:44:22,0,R
+360,2,0104027131,0104027131,Juan Fernando,Castillo Vasquez,0000-00-00,M,91350060,especificar,Andres Perez y Anton de Sevilla Esq. ,castillovasquez1@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+446,2,0104207824,0104207824,Carolina ,Valdivieso Valdivieso,0000-00-00,F,2857553,098550736,Cuenca,vanesavaldivieso1@hotmail.com,especificar,11631,EC,EC,2,0,0000-00-00 00:00:00,0,R
+70,1,0104255674,0104255674,Fausto Genaro,Sánchez Arias,1980-05-20,M,993513478,72884794,Guantanamo y Latinoamerica,fgsanchez27@hotmail.com,fausto.sanchez8@gmail.com,11631,EC,EC,1,0,0000-00-00 00:00:00,0,A
+417,2,0104265202,0104265202,Gabriela De La Nube,Orquera Tello,0000-00-00,F,087496196,especificar,Alfonso Moreno Mora 2-23 y José Escudero,gabbyorquera@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+71,1,0104603956,0104603956,Wilmer Patricio,Sancho Tenesaca,1980-08-06,M,967502492,997845996,Mena del Hierro. Cachabí,wpatricios83@gmail.com,wsancho@inpc.gob.ec,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+355,2,0105035067,0105035067,Cecilia Bernarda,Brito Alemán,0000-00-00,F,072892170,084988012,Av. Ricardo Durán "Baños,berny_1b@Hotmail.com,especificar,11631,EC,EC,2,0,0000-00-00 00:00:00,0,R
+420,2,0300810629,0300810629,Marcelo ,Parra Segovia,0000-00-00,M,99290119,especificar,Carlos V y Primero de Mayo,matopa10@hotmail.com,especificar,11631,EC,EC,2,0,0000-00-00 00:00:00,0,R
+416,2,0301288429,0301288429,Ruth Irene,Ordoñez Suarez,0000-00-00,F,2887029,072887029,Ciudadela pasaje 1  de Mayo  N-033-Cuenca,licrutho@yahoo.com,especificar,11631,EC,EC,2,0,0000-00-00 00:00:00,0,R
+349,2,0301340444,0301340444,Francisco Danilo,Barreto Encalada,0000-00-00,M,073021593,084582558,kilometro 2 via a san Miguel,daniguas_52@hotmail.com,especificar,14654,EC,EC,2,0,0000-00-00 00:00:00,0,R
+450,2,0301549145,0301549145,Victoria Bernarda,Vicuña Bermeo,0000-00-00,F,072892170,087165900,Av. Velasco Ibarra,vikiv25@hotmail.com,especificar,11631,EC,EC,2,0,0000-00-00 00:00:00,0,R
+94,1,0400670337,0400670337,Alexandra Irene,Yépez Regalado,1962-07-25,F,997242996,22239879,no especifica,aiyepez@hotmail.com,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+365,2,0400687943,0400687943,Víctor Hugo,Cueva Arias,0000-00-00,M,2658710,099391310,J Mancheno S/N- conjunto casa alegre puente 3  valle de los chillos,vicocueva@gmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+427,2,0400726436,0400726436,Silvio Alberto,Puentestar E.,0000-00-00,M,2251979,094674936,Mariano Calvache y Lorenzo Chavez,silviaope@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+453,2,0400749040,0400749040,Diego Marcelo,Jacome Perigueza,0000-00-00,M,,especificar,no especifica,especificar,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+386,2,0400995395,0400995395,Edwin Arturo,Guáma García,0000-00-00,M,2207308,especificar,Urb. 6 de Junio Mz. 21 casa 1-2,barrocoeg@yahoo.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+444,2,0401116090,0401116090,Ximena Elizabeth,Terán Narváez,0000-00-00,F,2207308,especificar,Urb. 6 de Junio Mz. 21 casa 1-2,ximeteran@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+32,1,0501248199,0501248199,Francisco Germánico,Sánchez Flores,1962-12-14,M,995293286,especificar,no especifica,fsanchez@inpc.gob.ec,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+358,2,0501250229,0501250229,Consuelo Jacqueline,Bustos Zapata,0000-00-00,F,2415421,095003498,Benjamin Wandemberg E6-236 y Servillón Urbina,jaquibz@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+389,2,0502202518,0502202518,Francisco Xavier,Hidalgo Bautista,0000-00-00,M,87203008,especificar,San Rafael,panchohidalgo8@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+364,2,0602201337,0602201337,Betty Elizabeth,Costales Olmedo,0000-00-00,F,2346944,084689697,Conj. Alto Valle casa 6 Conocoto,pexige@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+445,2,0602489197,0602489197,Carla Mariana,Tirira Saá,0000-00-00,F,2243714,096004494,Dionisio Bras N 35 - 290 y Mañosca,cali719@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+478,2,0602593576,0602593576,Alvaro Reinaldo,Romero Cisneros,1972-07-09,,0998443448,032966462,Esmeraldas 40-25 y calle 40,alv_rom@terra,romeroalvaro89@gmail.com,103966,EC,EC,1,1,2014-12-03 16:57:18,0,R
+400,2,0603026097,0603026097,Blanca Lorena,Mayacela Paredes,0000-00-00,F,098186851,especificar,Mañosca Nº 35- 164 y Vasco de contreras,blanqui_m@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+532,2,0604056408,0604056408,DIANA KATHERINE,CASTRO ALLAUCA,1990-06-27,NULL,0979293834,2612134,La Primavera, Mz G #33 ,dianykc@yahoo.es,maryallauca@yahoo.es,103966,EC,EC,1,1,2015-02-23 09:24:10,0,R
+391,2,0703916551,0703916551,Mayra Alexandra,Jaramillo Aguilar,0000-00-00,F,,especificar,no especifica,especificar,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+90,1,0902282656,0902282656,Jorge Gabriel,Marcos Pino,1963-01-10,M,999353534,3237808,no especifica,jgmarcos811@hotmail.com,especificar,9536,EC,EC,1,0,0000-00-00 00:00:00,0,A
+37,1,0902673953,0902673953,Oswaldo Enrique,Tobar Abril,1947-09-14,M,especificar,042392744 o 04224505,no especifica,oeta2000@yahoo.com,especificar,9536,EC,EC,1,0,0000-00-00 00:00:00,0,A
+98,1,0903947323,0903947323,Mariella,Garcia Caputi,1950-08-11,F,especificar,42837513,no especifica,mgarcia_ec@yahoo.com,especificar,9536,EC,EC,1,0,0000-00-00 00:00:00,0,A
+65,1,0905058178,0905058178,Gustavo,Costa von Buchwald,0000-00-00,M,994289784,42837737,Cdla: Rio Grande, calle Norte Villa # 1, Samborondon, Prov. del Guayas,guasango2012mangle@hotmail.com,especificar,9536,EC,EC,1,0,0000-00-00 00:00:00,0,A
+52,1,0905116448,0905116448,Jaime Fernando,Garcia Cornejo,1959-05-16,M,991734619,42991359,Puerto Azul Mz D11, V.21,jai.mef.garci@hotmail.com,especificar,9536,EC,EC,1,0,0000-00-00 00:00:00,0,A
+93,1,0905416665,0905416665,César I.,Veintimilla B.,0000-00-00,M,099-054-6665,42272669,no especifica,ci20milla@hotmail.com,especificar,9536,EC,EC,1,0,0000-00-00 00:00:00,0,A
+26,1,0906618822,0906618822,Valentina,Martínez,0000-00-00,F,especificar,42391458,no especifica,vmartine@fau.edu,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+58,1,0908081607,0908081607,Stefan,Bohorquez  Gerardy,1962-02-08,M,999610865,42209443,Cdla: Miraflores, calle 4ta 103 y Av. Las Palmas,stefan_bohorquez@yahoo.com,especificar,9536,EC,EC,1,0,0000-00-00 00:00:00,0,A
+96,1,0908693476,0908693476,Ana  Maritza,Freire Paredes,1963-09-10,F,9908693476,42381268,Cdla Kennedy Norte mz. 1003 villa 1,anamaritzafreire@yahoo.es,especificar,9536,EC,EC,1,0,0000-00-00 00:00:00,0,A
+73,1,0909180119,0909180119,Marco Vinicio,Vargas Aucancela,1964-03-21,M,0980875411 o 0992545,02-23281811,Ventura Aguilera N58-71 y Leonardo Murialdo,mvvargas64@hotmail.com,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+21,1,0909728586,0909728586,Jose,Chancay Vasquez,1996-05-23,M,998739763,45008106,urb. Volares Mz. 29, villa 14. Km. 14.5, vía a Samborondom,j.chancay@inpc.gob.ec,especificar,9536,EC,EC,1,0,0000-00-00 00:00:00,0,A
+13,1,0910293620,0910293620,Elizabeth C.,Bravo Triviño,1962-06-24,F,991492661,42450833,Los Ríos 3425 y Venezuela,ecbravot@yahoo.com,ecbravot@hotmail.com,9536,EC,EC,1,0,0000-00-00 00:00:00,0,A
+25,1,0911020790,0911020790,Erick Xavier,López Reyes,0000-00-00,M,990855160,42784504,cdla. La Carolina calle 10 frente al Paseo Shopping la Península,exlr@hotmail.com,especificar,104365,EC,EC,1,0,0000-00-00 00:00:00,0,A
+29,1,0911059277,0911059277,María Luisa,Moreira Pino,1967-06-19,F,984660269,022-644-008,La Magdalena, Quisquis 431,marilu_mp30@yahoo.com,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+18,1,0911843761,0911843761,Florencio Germán,Delgado Espinoza,1968-01-18,M,984512625,26009563 / 022971700,Universidad San francisco de Quito, Of. Epicuro 33,fdelgado@usfq.edu.ec,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+17,1,0915849368,0915849368,Rosalba Elizabeth,Chacón Pesantes,1975-12-18,F,986402213,22081813,Taura y Av. Shyris, conj. Alcala del Valle C19,rosal.75@hotmail.com,arqueolo@yahoo.com,13297,EC,EC,1,0,0000-00-00 00:00:00,0,A
+91,1,1000865293,1000865293,Félix Patricio,Moncayo Echeverría,1955-01-07,M,especificar,22991681,no especifica,patriciomonca@yahoo.com,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+63,1,1001019890,1001019890,Isabel Crsitina,Muñoz,1956-01-12,F,997639232,62920324,Ciudadela Imbaya Calle Miguel de jijon y leon # 2-32,crissty66@yahoo.com,especificar,103971,EC,EC,1,0,0000-00-00 00:00:00,0,A
+384,2,1100276383,1100276383,Víctor ,Gordillo Estrada,0000-00-00,M,,especificar,no especifica,especificar,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+425,2,1101470746,1101470746,José María,Pineda Sanmartín,0000-00-00,F,99007989,especificar,Areas ugarte 28-76-Bartolome de las Casas,pepepineda2003@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+418,2,1101981551,1101981551,Marco Rodrigo,Paladines Criollo,0000-00-00,M,especificar,especificar,no especifica,especificar,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+79,1,1103800320,1103800320,Jessica,Herrera Troya,1981-01-10,F,987186430,especificar,no especifica,yeliz_herrera@yahoo.com,yeliz_herrera@hotmail.com,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+380,2,1201481742,1201481742,Inés Beatriz,Garófalo Mora,0000-00-00,F,2861673,091797228,Isla Puna, casa # 38,inesgaromo@hotmail.com,especificar,13297,EC,EC,2,0,0000-00-00 00:00:00,0,R
+363,2,1201671862,1201671862,Isidro Álvaro,Coello Schuldt,0000-00-00,M,2880830,084350149,José Escudero 341 y Agustín Cueva,coegoec@yahoo.com,especificar,11631,EC,EC,2,0,0000-00-00 00:00:00,0,R
+53,1,1202030647,1202030647,Segundo Enrique,Palma Chenche,1967-03-16,M,98797864,42760454,Av. Paquisha y calle 12 de Octubre,enriquepalmachenche@yahoo.es,especificar,179675,EC,EC,1,0,0000-00-00 00:00:00,0,A
+92,1,1304163445,1304163445,Leonela del Rocío,Murillo Macay,1963-01-10,F,998311183,22696504,Colon y 9 de Octubre,rmurillo@inpc.gob.ec,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+15,1,1700405986,1700405986,Juan Cristóbal,Carrera Colin,1936-10-29,M,especificar,2891613,no especifica,arcaico2@yahoo.es,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+89,1,1700862442,1700862442,Holguer Mariano,Jara Chávez,1945-10-29,M,099-923-4351,especificar,no especifica,hjara@quito.gob.ec,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+39,1,1703091379,1703091379,Marcelo Leónidas,Villalba Oquendo,1950-07-30,M,998812999,22430901,Av. La Republica 1530 e Inglaterra,mvillalb1@gmail.com,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+51,1,1703430577,1703430577,Carlos,Rosero SAA,0000-00-00,M,0992758883 o 0987880,22415915,Matilde Delgado s1-171 y Luis Larenas (Monjas Orquídeas),carlitoslt17@hotmail.com,edmundorosero@hotmail.com,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+442,2,1703563641,1703563641,Ober Dantio,Sevillano Mesias,1953-06-03,M,0999216354,2730347,Juan Barreiro Nro 12 y avenida Solanda,hsevillano@inpc.gob.ec,,7902,EC,EC,2,1,2015-04-27 15:15:45,0,R
+440,2,1703631927,1703631927,José Ricardo,Sangucho Caiza,0000-00-00,M,3154382,084111141,Francisco Pinargote # 331,gucho7777@yahoo.es,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+350,2,1704506011,1704506011,Lilian Mariana,Bejarano Moreno,0000-00-00,F,,especificar,no especifica,especificar,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+369,2,1704538287,1704538287,Tania Lorena,Egas Maffeo,0000-00-00,F,3215380,097650552,Jeronimo Carrion Oe2-04 Juan Murillo ,taloegas@yahoo.com.ar,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+449,2,1704731189,1704731189,Mario Humberto,Vargas Untuña,0000-00-00,M,0231220948,094755613,Pasaje B  s 12 196 y Eliodoro Ayala ,mario.vargas41@yahoo.es,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+393,2,1704889250,1704889250,Segundo Leovigildo,Llanes Suárez,0000-00-00,M,098642289,2470149,Juan  Chipre y Francisco Burgueño,segundo_llanes@yahoo.es,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+405,2,1705411807,1705411807,Sonia Dolores,Montalvo Arízaga,0000-00-00,F,2812805,096027821,Abelardo Montalvo E642-y zaldumbide,montalvo_sonia@yahoo.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+356,2,1705527974,1705527974,Pedro Eugenio,Burgos Enriquez,0000-00-00,M,2481554,084719614,Calle B N743 26 y Juaquin Mancheno,pedroburgos1058@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+435,2,1705794772,1705794772,Ximena Sofía,Rojas Tobar,0000-00-00,F,2901210,092593755,Av. Coruña # E 13-20 Y VALLADOLID,ximenasofia@yahoo.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+30,1,1706466032,1706466032,Santiago,Ontaneda,1960-09-16,M,981870710,2433514,Cosme Renela 133 y Brasil,sontaneda@culturaypatrimonio.gob.ec,santiago.ontaneda@yahoo.com,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+48,1,1706582218,1706582218,Antonio  Jose,Fresco Gonzalez,1947-10-08,M,984099470,22441264,no especifica,afresco@ministeriodecultura.gob.ec,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+403,2,1706601950,1706601950,Sonia María,Merizalde Aguirre,0000-00-00,F,2417426,098431233,Estocolmo E2-167 y Amazonas,sonia_merizalde@yahoo.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+411,2,1706650692,1706650692,Guillermo Pacifico,Narváez Nicolalde,0000-00-00,M,2621476,especificar,Santa Rosa de Chillogallo, Mz 19, Cs 18,licnar2004@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+44,1,1706943253,1706943253,Mónica Janeth,Bolaños Pantoja,1960-08-15,F,999007874,especificar,Av. La Prensa y Cochapata,imashuti60@yahoo.es,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+353,2,1707153902,1707153902,Diego Vinicio,Brazzero Oña,0000-00-00,M,022335724,087312854,Atacazo  442 y Olmedo, urb. Santa Rosa sangolqui,diegobrazz@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+354,2,1707153910,1707153910,Mario Wladimir,Brazzero Oña,0000-00-00,M,072855261,084287945,Calle Tomás Vicente Andrade s/n y Luis Moscoso. ,mbrazzero@gmail.com,mbrazzero@hotmail.com,11631,EC,EC,2,0,0000-00-00 00:00:00,0,R
+455,2,1707500847,1707500847,David Salomón,Miranda Povea,0000-00-00,M,098753075,especificar,Conj. Residencial Sta. Catalina Sn. José de Moran.,davisal17@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+438,2,1707838593,1707838593,John Fernando,Salazar Moscoso,0000-00-00,M,098633104,2337053,Venezuela y Viñedos Conjunto el Alcazar N-35,johnjs17@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+402,2,1707888838,1707888838,Pamela Alexandra,Mendieta Guarderas,0000-00-00,F,2812466,099584433,Capitán Rafael Ramos # 1257 y Av. 10 de Agosto,liberarestauración@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+367,2,1708178577,1708178577,Raúl Xavier,Domínguez Egas,0000-00-00,M,091150374,2664385,Carnqui OE 6 y Hualcopo,rxdominguez@gmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+366,2,1708464183,1708464183,Luis Manuel,De Mora Saa,0000-00-00,M,5088655359,especificar,58-Hartness Road Sutton, MA. 01590 -3831,marquezdemora@yahoo.es,especificar,245150,US,EC,2,0,0000-00-00 00:00:00,0,R
+451,2,1708552458,1708552458,Galo Vinicio,Villagómez Báez,0000-00-00,M,2951884,094964505,Joel Moroy Oe 9-32,galovillagomez@andinanet.net,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+421,2,1708562697,1708562697,Washington Ramiro,Pauta Yánez,0000-00-00,M,especificar,especificar,Quito,especificar,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+430,2,1708728363,1708728363,Lorena Del Pilar,Reinoso Cedeño,0000-00-00,F,22432277,2244019,De Los Viñeros N-44-206 y de los Angeles,lo_reinoso14@yahoo.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+392,2,1708762800,1708762800,Manuel ,Jiménez Carrera,0000-00-00,M,28124660,99493721,Capitán Rafael Ramos # 1257,sphayros@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+339,2,1709135337,1709135337,Luis Dominguín,Aguilar Ortega,0000-00-00,M,2221301,084067113,Leónidas Plaza Lasso E 16 - 262,salv-arte@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+38,1,1709233165,1709233165,Cecilia Josefina,Vásquez Pazmiño,1973-06-27,F,982212264,26009563 / 022971700,Universidad San francisco de Quito, Of. Epicuro 32,jvasquez@usfq.edu.ec,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+409,2,1709239113,1709239113,Catalina Belen,Muñoz Villacis,0000-00-00,F,especificar,especificar,no especifica,especificar,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+375,2,1709304883,1709304883,Fernando Edwin,Espinoza Guerra,0000-00-00,M,98312080,especificar,Lagasca,f.espinoza1.618@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+436,2,1709441297,1709441297,Geovanny Vinicio,Ron Moreno,0000-00-00,M,2429360,especificar,Carapungo 1da. Etapa, Conjunto El Príncipe casa c 9,viniron@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+399,2,1709742611,1709742611,Jaime Enrique,Martínez Moreno,0000-00-00,M,2531817,093062297,condominios los ceresos  casa N-18,jaimarmor@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+423,2,1709836454,1709836454,Juan Carlos,Pazmiño Betancourt,0000-00-00,M,84937010,especificar,Los Pinos y Gaspar de Carvajal,jcpazmino29@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+221,2,1709842387,1709842387,Robert,Andrade Verdezoto,1968-12-28,M,980373808,2032432,Av. Carlos mantilla calle 7 y sicilia, Prados de Calderon 1, casa 2,roandeverde@gmail.com,uambracuna@yahoo.com,7902,EC,EC,1,1,2015-01-20 14:10:11,0,A
+345,2,1709872301,1709872301,María Luisa,Armas Muñoz,0000-00-00,F,2529363,092996354,Pasaje Melchor Lloriega N 3687 y Mañozca,marialuisaarmas@yahoo.es,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+347,2,1710878974,1710878974,Juan Diego,Badillo Reyes,0000-00-00,M,85282691,especificar,Urb Pinar Bajo Oe5-12,jdbr2006@yahoo.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+341,2,1710928985,1710928985,Gabriela ,Álvarez Salvador,0000-00-00,F,022801939,087320150,Mariana Paredes No 70 -146 y Moisés Luna casa 4B,gabi.alvarez4@gmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+487,2,1710962851,1710962851,CARLOS GONZALO,PACHECO NAVARRO,1971-03-10,,0995959899,042017546,Urb. Tottori Mz. 575 V. 15,carlos.pacheco@inpc.gob.ec,cpacheconavarro@yahoo.com,9536,EC,EC,1,1,2014-12-05 11:08:12,0,R
+49,1,1711101806,1711101806,Inés del Carmen,Mantilla Morales,0000-00-00,F,999864156,22480254,no especifica,immantilla@yahoo.com,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+59,1,1711892362,1711892362,Carlos Daniel,Cali Erazo,1988-08-02,M,995693851,22655110,Los Andes 421 y Av. Napo,carlos.d.cali@gmail.com,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+97,1,1712059920,1712059920,Caterin Alejandra,Lara Illiescas,1986-03-12,F,985900704,23331787,no especifica,ilaracaterine@hotmail.com,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+74,1,1712118080,1712118080,Jorge Fernando,Flores Troya,0000-00-00,M,especificar,22678803,Catarama 333 y Palenque,fer2can@yahoo.com,fer2can@yahoo.es,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+61,1,1712176021,1712176021,María Patricia,Ordoñez Alvarez,1986-02-08,F,999242301,22861263,Rio Zamora 3a y Pasaje Sanchez-San Rafael,mpordonezalvarez@yahoo.com,especificar,13297,EC,EC,1,0,0000-00-00 00:00:00,0,A
+552,2,1712754884,1712754884,Ana Lucía,Larrea Benalcázar,1975-01-14,NULL,0996417227,022331054,Urb Carlos Andrade Casa 9,analularrea@gmail.com,juliovelascoa@gmail.com,13297,EC,EC,1,1,2015-04-06 08:25:50,0,R
+75,1,1712799780,1712799780,Dayuma,Guayasamin Ortiz,1987-12-10,F,995012718,especificar,Andres de Artieda N24-123 y Av. La Gasca,dayuma.go@hotmail.com,inpcr6@gmail.com,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+456,2,1713208310,1713208310,Ana Isabel,Villalba Francino,0000-00-00,F,2599035,098307841,Jorge piedra 1500 casa a13 condominos Jardines del Bosque,anabellvf@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+372,2,1713230702,1713230702,Karla Pabela,Enriquez De La Torre,0000-00-00,F,2405641,0804799108,Abelardo Montalvo E 5 - 65,karl_ita@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+401,2,1713396792,1713396792,Elita ,Mena Chimba,0000-00-00,F,2582881,099555007,Alvaro Cevallos N-3-77 y Ramirez de arellano,elitamena@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+359,2,1713423349,1713423349,Angelo Michael,Cano Medina,0000-00-00,M,022598810,097105577,INPC,angelo_michael_cano@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+413,2,1713504098,1713504098,Sofía ,Ochoa Espinoza,0000-00-00,F,2555456,099514464,Jerónimo Leiton N 24 - 74 y Av. La Gasca,sofyochoa@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+447,2,1714381678,1714381678,Marco Vinicio,Valladares Pérez,0000-00-00,M,2237397,096735966,Cuero y Caicedo OE6-109,mvvp28@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+381,2,1714761556,1714761556,Lorena ,Garrido ,0000-00-00,F,,especificar,no especifica,especificar,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+64,1,1715064851,1715064851,Daniel,Zea Chavez,1985-09-08,M,992817863,22225620,Selva Alegre OE5-70 y Miguel y Solier,david.zea@gmx.at,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+377,2,1715088017,1715088017,Victoria Katherine,Flores Guevara,0000-00-00,F,6040870,085781685,Ventura aguilera N 58-109 y san juan Molineros,Vicky-kather@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+422,2,1715204721,1715204721,Margarita Del Pilar,Pavon Cano,0000-00-00,F,2435841,098425033,Colines y Av. Granados . condominios el Inca.   Bloque 57. Dp 2-B,deleyquesi@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+395,2,1715307722,1715307722,María Fernanda,Lucano Camacho,0000-00-00,F,087089115,096091305,Valladolid E14-147 y Ladron de Guevara,mafelc@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+43,1,1716119134,1716119134,Daniela Catalina,Balanzátegui Moreno,1982-12-10,F,992384798,023571253 o 02253177,no especifica,daniela_balanzategui_moreno@yahoo.com,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+83,1,1716135940,1716135940,Tenorio Salazar,Gabriela Eugenia,0000-00-00,F,098-002-4728,26034872,Av. República E7-07 y Pradera,arqueogaby04@gmail.com,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+348,2,1716373921,1716373921,Cristian Iván,Balarezo Balarezo,0000-00-00,M,,especificar,no especifica,especificar,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+47,1,1716749021,1716749021,Estanislao Mauricio,Pazmiño Tamayo,0000-00-00,M,9985607147,022435179 o 02265258,no especifica,arqueoestanis@yahoo.es,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+376,2,1716818495,1716818495,Elena Paola,Flores Guevara,0000-00-00,F,2411561,095872608,6 diciembre y Fresnos California Alta III,paofloresguevara@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+373,2,1716955727,1716955727,Silvia Alexandra,Espin Sarango,0000-00-00,F,97357798,especificar,Carapungo SMZ-A09 MZ-E-C1,aalexa_espin@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+379,2,1717275406,1717275406,Daniela Soledad,Gandara ,0000-00-00,F,,especificar,no especifica,especificar,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+370,2,1718758772,1718758772,María Inés,Egas Villagomez,0000-00-00,F,,especificar,no especifica,especificar,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+433,2,1719197137,1719197137,Ricardo Augusto,Rivadeneira Guzmán,0000-00-00,M,2239897,095774864,Luís Cordero Nº 111 y Valladolid,ricardor_44@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+362,2,1719382952,1719382952,Jorge Santiago,Chiriboga Salgado,0000-00-00,M,072792646,084716980,Damian Meneces,jsantinochiriboga@gmail.com,especificar,207416,EC,EC,2,0,0000-00-00 00:00:00,0,R
+515,2,1719796607,1719796607,KARINA NARCISA,VALENCIA LANDAZURI,1983-10-06,NULL,0992579930,2953937,OLMEDO OE2-56 Y GUAYAQUIL,alexjhoel_2006@outlook.com,,7902,EC,EC,1,1,2015-01-22 16:46:48,0,
+344,2,1720900297,1720900297,Andres Ivan,Burbano Ureta,0000-00-00,M,2921119,084191725,Isla Fernandina N-41 121 e Isla Floreana,ines.egas@hotmail.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+77,1,1720946787,1720946787,María José,Rivadeneira Barba,1988-12-23,F,998006975,22073599,Av. Abdon Claderón y Juan Montalvo, Bulevar de las Acacias etapa III No. 29,majoriva2312@hotmail.com,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+66,1,1721766044,1721766044,Sonia gabriela,López Soria,2013-04-21,F,984576145,22674492,Caluma S19-97 y Pasaje S19-A Barrio La Argelia,garabita_16@hotmail.com,especificar,7902,EC,EC,1,0,0000-00-00 00:00:00,0,A
+88,1,1751980432,1751980432,Benjamin,Pierre Thibaut,1981-09-21,M,especificar,022971700 ext 1509,no especifica,bbernard@usfq.edu.ec,especificar,7902,EC,FR,1,0,0000-00-00 00:00:00,0,P
+476,1,1753164795,1753164795,Jenny Alexandra,Escobar Herrada,1986-04-21,,0998314515,,solca,jennyescobar990@yahoo.com,,7902,EC,CO,1,1,2014-11-30 10:10:14,0,R
+439,2,1803709383,1803709383,Ruth Gabriela,Salazar Paredes,0000-00-00,F,022237771,092740095,Los Álamos E 10 - 214 y Av. Eloy Alfaro,gabisa71_2000@yahoo.com,especificar,7902,EC,EC,2,0,0000-00-00 00:00:00,0,R
+60,1,206533181,206533181,Maria,Masucci,0000-00-00,F,973-408-3768,973-408-3496,Departament of Anthrpology Drew University NJ 07922,mmasucci@drew.edu,especificar,245150,US,US,2,0,0000-00-00 00:00:00,0,A
+57,1,221054578,221054578,David,Brown,0000-00-00,M,especificar,512 2582832,no especifica,david.brown@mail.utexas.edu,especificar,10170,US,US,2,0,0000-00-00 00:00:00,0,A
+99,1,C2YJKHV4C,C2YJKHV4C,Frank,Herken Alte,1968-12-27,M,especificar,especificar,Wilson E76439 y reina Victoria,frankalte@yahoo.com,especificar,7902,EC,DE,2,0,0000-00-00 00:00:00,0,A

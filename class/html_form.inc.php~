@@ -1,0 +1,5 @@
+<?
+	function inp_text($name,$ize,$max_l,$focus,$blur, $click){
+		return $txt_render='<input type="text" name="'.$name.'" size="'.$size.'" maxlength="'.$maxl.'" onFocus="'.$focus.'" onBlur="'.$blur.'" onClick="'.$click'">';
+	};
+

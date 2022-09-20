@@ -1,0 +1,40 @@
+<?
+	//error_reporting(E_ERROR | E_PARSE | E_COMPILE_ERROR );
+	$local_dir=substr($_SERVER['SCRIPT_FILENAME'],0,strrpos($_SERVER['SCRIPT_FILENAME'],"/")+1);
+	$inclu_dir=$local_dir.'include';	
+
+	set_include_path(get_include_path() . PATH_SEPARATOR . $inclu_dir);
+	date_default_timezone_set ( 'America/Guayaquil' );
+	
+	//-----------varias
+	$usr_bgc='#85A3BB';
+	//-----------varias
+	//----ESPECIFICACION DE ENCABEZADOS-----
+	//$ccod='UTF-8';	
+	//$mime_type='text/html';
+	header("Content-Type: text/html; charset=ISO-8859-1");
+
+	header("Expires: 0");             // Date in the past
+	header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT"); // always modified
+	header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT"); // always modified
+	('Cache-Control: no-store, no-cache, must-revalidate'); // HTTP/1.1
+	header('Cache-Control: pre-check=0, post-check=0, max-age=0'); // HTTP/1.1
+	header("Cache-Control: no-cache, must-revalidate");           // HTTP/1.1
+	header("Pragma: no-cache");
+	//----ESPECIFICACION DE ENCABEZADOS-----
+?>
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<SCRIPT>var HOY = new Date('<?=date("d M Y G:i:s");?>');
+	</SCRIPT>
+<HEAD>
+	<TITLE>Registro de Profesionales INPC  </TITLE>
+	<META NAME="GENERATOR" CONTENT="Gedit Version 3.10">
+	<META NAME="AUTHOR" CONTENT="Ivan Camacho">
+	<META NAME="CREATED" CONTENT="Thu, 21 Aug 2014 01:19:28">
+	<META NAME="CHANGED" CONTENT="Thu, 21 Aug 2014 01:19:28">
+	<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+<!--<script language="Javascript1.2" src="java/layers12.js">
+</script>
+<script language="Javascript1.1" src="java/layers11.js">
+</script>-->
+</HEAD>
